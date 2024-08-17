@@ -13,6 +13,7 @@ import { T2Component } from './components/shared/t2/t2.component';
 import { ImageComponent } from './components/shared/image/image.component';
 import { ParrafoComponent } from './components/shared/parrafo/parrafo.component';
 import { PlaceholderComponent } from './components/shared/placeholder/placeholder.component';
+import { IconComponent } from './components/shared/icon/icon.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PlaceholderComponent } from './components/shared/placeholder/placeholde
     T2Component,
     ImageComponent,
     ParrafoComponent,
-    PlaceholderComponent
+    PlaceholderComponent,
+    IconComponent
   ],
   imports: [
     BrowserModule,
