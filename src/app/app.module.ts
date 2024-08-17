@@ -8,6 +8,11 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { T1Component } from './components/shared/t1/t1.component';
+import { T2Component } from './components/shared/t2/t2.component';
+import { ImageComponent } from './components/shared/image/image.component';
+import { ParrafoComponent } from './components/shared/parrafo/parrafo.component';
+import { PlaceholderComponent } from './components/shared/placeholder/placeholder.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { FooterComponent } from './components/footer/footer.component';
     WelcomeComponent,
     SkillsComponent,
     ProjectsComponent,
-    FooterComponent
+    FooterComponent,
+    T1Component,
+    T2Component,
+    ImageComponent,
+    ParrafoComponent,
+    PlaceholderComponent
   ],
   imports: [
     BrowserModule,
