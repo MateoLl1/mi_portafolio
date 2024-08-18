@@ -14,6 +14,8 @@ import { ImageComponent } from './components/shared/image/image.component';
 import { ParrafoComponent } from './components/shared/parrafo/parrafo.component';
 import { PlaceholderComponent } from './components/shared/placeholder/placeholder.component';
 import { IconComponent } from './components/shared/icon/icon.component';
+import { Hr1Component } from './components/shared/hr1/hr1.component';
+import { Hr2Component } from './components/shared/hr2/hr2.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { IconComponent } from './components/shared/icon/icon.component';
     ImageComponent,
     ParrafoComponent,
     PlaceholderComponent,
-    IconComponent
+    IconComponent,
+    Hr1Component,
+    Hr2Component
   ],
   imports: [
     BrowserModule,
