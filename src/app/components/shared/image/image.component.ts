@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { MiProyect } from '../../../interfaces/proyecto';
 
 @Component({
   selector: 'image',
@@ -7,6 +8,6 @@ import { Component, Input } from '@angular/core';
 })
 export class ImageComponent {
 
-  @Input() image: string = 'no-image';
+  @Input() project?:MiProyect
 
 }

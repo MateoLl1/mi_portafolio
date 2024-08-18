@@ -1,5 +1,5 @@
 
-export interface Proyectos {
+export interface MiProyect {
   title:string,
   description:string,
   image:string,

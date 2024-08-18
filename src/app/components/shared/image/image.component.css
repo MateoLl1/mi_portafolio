@@ -1,0 +1,7 @@
+.disabled-link {
+  pointer-events: none; /* Desactiva clics */
+  cursor: not-allowed;  /* Muestra un cursor de "no permitido" */
+  color: gray;          /* Cambia el color del texto */
+  text-decoration: none; /* Quita el subrayado */
+  opacity: 0.5;         /* Reduce la opacidad para indicar que está deshabilitado */
+}

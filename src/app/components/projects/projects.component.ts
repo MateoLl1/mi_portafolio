@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ProjectService } from '../../service/project.service';
 
 @Component({
   selector: 'app-projects',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrl: './projects.component.css'
 })
 export class ProjectsComponent {
+
+  constructor(private projectService:ProjectService) {
+
+  }
+
+  get cargarProyectos(){
+    return this.projectService.miListProjects
+  }
 
 }

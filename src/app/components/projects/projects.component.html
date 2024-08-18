@@ -3,11 +3,10 @@
   <hr2></hr2>
   <app-parrafo [parrafo]="'Eiusmod ipsum reprehenderit qui exercitation deserunt esse pariatur nisi quis ad. Ea tempor pariatur non amet veniam esse voluptate voluptate officia consectetur sint aliquip. Aliqua enim aliquip ut nisi non enim eiusmod reprehenderit. Voluptate nulla amet cillum elit Lorem. Reprehenderit ea eiusmod do culpa veniam incididunt. Irure magna ex pariatur aliquip aliqua ullamco. Veniam elit ullamco cillum anim ut dolore Lorem culpa elit do fugiat deserunt ad.'"></app-parrafo>
   <div class="list-flex">
-    <image [image]="'https://th.bing.com/th/id/OIP.5JbXd0__eA4e8ApsH42xwgHaEK?rs=1&pid=ImgDetMain'"></image>
-    <image [image]="'https://th.bing.com/th/id/OIP.5JbXd0__eA4e8ApsH42xwgHaEK?rs=1&pid=ImgDetMain'"></image>
-    <image [image]="'https://th.bing.com/th/id/OIP.5JbXd0__eA4e8ApsH42xwgHaEK?rs=1&pid=ImgDetMain'"></image>
-    <image [image]="'https://th.bing.com/th/id/OIP.5JbXd0__eA4e8ApsH42xwgHaEK?rs=1&pid=ImgDetMain'"></image>
-    <image [image]="'https://th.bing.com/th/id/OIP.5JbXd0__eA4e8ApsH42xwgHaEK?rs=1&pid=ImgDetMain'"></image>
+
+  <div *ngFor="let project of cargarProyectos">
+    <image [project]="project"></image>
+  </div>
   </div>
 
 </div>
