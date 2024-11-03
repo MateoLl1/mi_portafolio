@@ -28,19 +28,23 @@
 
   <!--! NAVBAR -->
   <mat-toolbar class="m-1">
-    <span class="pl-4">Mateo-Llerena</span>
+    <span class="pl-4">PORTFOLIO.</span>
     <span class="spacer"></span>
     <!-- Botón del menú (visible solo en pantallas pequeñas y medianas) -->
-    <button
+    <!--! <button
       mat-icon-button
       (click)="sidenav.toggle()"
       class="sm:block md:block lg:hidden xl:hidden"
     >
       <mat-icon>menu</mat-icon>
+    </button> -->
+    <button mat-icon-button (click)="sidenav.toggle()">
+      <mat-icon>menu</mat-icon>
     </button>
 
     <!-- Botones de navegación (visibles solo en pantallas grandes) -->
-    <div class="pr-6 hidden lg:flex xl:flex">
+    <!--! <div class="pr-6 hidden lg:flex xl:flex"> -->
+    <div class="pr-6">
       <button class="px-4" mat-button>Home</button>
       <button class="px-4" mat-button>About</button>
       <button class="px-4" mat-button>Skills</button>
